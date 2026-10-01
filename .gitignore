@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Go build files
+*.exe
+*.test
+*.out
+
+# Temporary files
+tmp/
+temp/
+
+# VS Code local settings
+.vscode/

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Σύνδεση | ZARKADOULAS</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <main class="login-page">
+
+        <div class="login-container">
+
+            <div class="login-header">
+                <p>ADMINISTRATION</p>
+                <h1>ZARKADOULAS</h1>
+                <span>Σύνδεση διαχειριστή</span>
+            </div>
+
+            <form action="/login" method="POST" class="login-form">
+
+                <div class="form-group">
+                    <label for="username">Όνομα χρήστη</label>
+
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        autocomplete="username"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Κωδικός πρόσβασης</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        autocomplete="current-password"
+                        required
+                    >
+                </div>
+
+                <button type="submit" class="login-button">
+                    Σύνδεση
+                </button>
+
+            </form>
+
+            <a href="/" class="back-home">
+                ← Επιστροφή στην ιστοσελίδα
+            </a>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
